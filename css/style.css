@@ -1,12 +1,7 @@
-/* header{
-    background-color: white;
-} */
-/* body{
-    margin: 0;
-    padding: 0;
-    background-color: rgb(18, 1, 1);
-    }   */
+body{
 
+    margin: 0%;
+}
 .index {
     color: rgb(2, 2, 2);
     display: flex;
@@ -16,48 +11,268 @@
     padding-left: 1cm;
     padding-right: 1cm;
 }
-#rejoindre{
-    width: 150px;
-    height: 45px;
-    background-color: blue;
+
+.rejoindre{
     color: white;
+    background-color: blue;
+    width: 146px;
+    height: 45px;
+    padding: 10px 18px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5%;
 }
-.firstSec{
+.voir-button{
+    color: white;
+    background-color: black;
+}
+.hero-section{
     background-color: rgb(19, 19, 17);
     display: flex;
-    padding: auto;
+    align-items: center;
     justify-content: space-around;
+    gap: 40px;
+    padding-left: 2cm;
+    /* padding: 60px 5%; */
     color: white;
 }
-#camptext{
+.text-content{
+    flex: 1;
+}
+.image-content{
+    display: flex;
+    /* justify-content: left; */
+    flex: 1;
+}
+.image-content img {
+  width: 100%;
+  height: auto;
+  margin: -10;
+}
+#camp-text{
     color: white;
     font-size: 750%;
     font-weight: 900;
-    /* font-style: 'Inter'; */
 }
-button{
-    color: white;
-    background-color: blue;
-}
-
-#h21 {
-    color: rgb(252, 250, 250);
-    font-weight: 900;
-    font-size: 100px;
-    font: bold;
-}
-
-#h22 {
+#life-text{
     color: blue;
+    font-size: 500%;
     font-weight: 900;
-    font-size: 76px;
-    font: bold;
 }
-#h23 {
-    color: rgb(46, 160, 36);
-    font-weight: 900;
-    font-size: 100px;
-    font: bold;
+#text{
+    color: #C7F64A; 
+    font-size: 500%;
 }
+.camp-event{
+    display: flex;
+    justify-content: space-between;
+}
+.lst-elm{
+
+    display: flex;
+    justify-content: space-between
+}
+.sect-two{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 10px;
+}
+.sect-three{
+    background-color: #e4e7dff1;
+    display: flex;
+    padding-left: 1cm;
+    padding-right: 1cm;
+}
+.p1{
+    color: blue;
+}
+.sect-four{
+    background-color: rgb(11, 5, 5);
+    color: white;
+    padding-left: 1cm;
+    padding-right: 1cm;
+    padding-top: 0.4cm;
+}
+.sect-four0 h1{
+    font-size: 300%;
+    padding: 0%;
+}
+.sect-four0 p{
+    font-size: 200%;
+
+
+}
+.sect-four1{
+    display: flex;
+    justify-content: space-around;
+}
+.sect-four img{
+    background-color: rgba(34, 6, 148, 0.904);
+    padding: 10px;
+    border: #dfe0e7f1;
+    border-radius: 200%;
+}
+#ndimg{
+    background-color: rgba(20, 147, 81, 0.851);
+    color: white;
+}
+#rdimg{
+    background-color: rgb(69, 3, 108);
+}
+#thimg{
+    background-color: rgba(46, 242, 39, 0.904);
+}
+.sect-four .points{
+    font-size: 150%;
+    padding-top: 30px;
+}
+.sect-five{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    margin: 0.5cm;
+
+}
+.sect-five .text-segment{
+    background-color: blue;
+    color: white;
+    padding: 0.5cm;
+}
+.sect-five .sect-five-buttons{
+    color: blue;
+    border: blue;
+    border: 100%;
+    width: 70%;
+}
+.sect-six{
+    background-color: rgb(247, 242, 238);
+    display: flex;
+    justify-content: space-between;
+    padding-left: 1cm;
+    padding-right: 0.5cm;
+}
+.sect-six .sect-six-name{
+    display: flex;
+    align-items: center;
+}
+.sect-six h1{
+    font-size: 400%;
+}
+#sect-six-p{
+    font-size: xx-large;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
