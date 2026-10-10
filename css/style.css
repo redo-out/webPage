@@ -1,5 +1,6 @@
 body{
-
+    width: 100%;
+    padding: 0%;
     margin: 0%;
 }
 .index {
@@ -11,7 +12,6 @@ body{
     padding-left: 1cm;
     padding-right: 1cm;
 }
-
 .rejoindre{
     color: white;
     background-color: blue;
@@ -33,7 +33,6 @@ body{
     justify-content: space-around;
     gap: 40px;
     padding-left: 2cm;
-    /* padding: 60px 5%; */
     color: white;
 }
 .text-content{
@@ -41,7 +40,6 @@ body{
 }
 .image-content{
     display: flex;
-    /* justify-content: left; */
     flex: 1;
 }
 .image-content img {
@@ -68,7 +66,6 @@ body{
     justify-content: space-between;
 }
 .lst-elm{
-
     display: flex;
     justify-content: space-between
 }
@@ -99,8 +96,6 @@ body{
 }
 .sect-four0 p{
     font-size: 200%;
-
-
 }
 .sect-four1{
     display: flex;
@@ -145,11 +140,15 @@ body{
     width: 70%;
 }
 .sect-six{
-    background-color: rgb(247, 242, 238);
+    background-color: rgba(247, 242, 238, 0.898);
     display: flex;
     justify-content: space-between;
-    padding-left: 1cm;
+    padding-left: 2cm;
     padding-right: 0.5cm;
+}
+.sect-six img{
+    width: 180%;
+    height: 80%;
 }
 .sect-six .sect-six-name{
     display: flex;
@@ -157,122 +156,54 @@ body{
 }
 .sect-six h1{
     font-size: 400%;
+    color: blue;
+;
 }
-#sect-six-p{
+.sect-six-p1{
     font-size: xx-large;
+    margin-top: 10%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.sect-six-h3{
+    font-size: xx-large;
+    margin-left: 50%;
+    color: blue;
+    margin-bottom: 10%;
+  
+}
+.sect-six-h32{
+    font-size: xx-large;
+    font-weight: 900;
+    padding-top: 20%;
+}
+footer{
+    background-color: black;
+    color: white;
+    padding-left: 1cm;
+    padding-right: 1cm;
+    padding-bottom: 0.5cm;
+    padding-top: 1cm;
+}
+.sect-seven{
+    display: flex;
+    justify-content: space-between;
+}
+.sect-eight{
+    display: flex;
+    justify-content: space-between;
+}
+.last{
+    display: flex;
+    justify-content: space-between;
+}
+#lastP{
+    padding-left: -10%;
+}
+.color{
+    color: #62de1af1;
+}
+.explore{
+    background-color: #62de1af1;
+    width: 200px;
+    height: 46px;
+    border-radius: 10%;
+}
