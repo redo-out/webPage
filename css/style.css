@@ -43,9 +43,9 @@ body{
     flex: 1;
 }
 .image-content img {
-  width: 100%;
+  max-width: 100%;
   height: auto;
-  margin: -10;
+  margin: -10px;
 }
 #camp-text{
     color: white;
@@ -135,8 +135,6 @@ body{
 }
 .sect-five .sect-five-buttons{
     color: blue;
-    border: blue;
-    border: 100%;
     width: 70%;
 }
 .sect-six{
@@ -147,8 +145,8 @@ body{
     padding-right: 0.5cm;
 }
 .sect-six img{
-    width: 180%;
-    height: 80%;
+    max-width: 100%;
+    height: auto;
 }
 .sect-six .sect-six-name{
     display: flex;
@@ -193,10 +191,7 @@ footer{
 }
 .last{
     display: flex;
-    justify-content: space-between;
-}
-#lastP{
-    padding-left: -10%;
+    gap: 70px;
 }
 .color{
     color: #62de1af1;
@@ -206,4 +201,29 @@ footer{
     width: 200px;
     height: 46px;
     border-radius: 10%;
+}
+
+.reg-page{
+    margin-left: 1cm;
+}
+.label{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.reg-h1{
+    font-size: 400%;
+}
+.input input{
+    width: 70%;
+    height: 50px; 
+    border-radius: 3%;
+}
+.inscrire-button{
+    width: 70%;
+    height: 50px;
+    color: white;
+    background-color: blueviolet;
+    margin-bottom: 1cm;
+    border-radius: 3%;
 }
